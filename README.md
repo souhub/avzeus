@@ -8,7 +8,7 @@
 
 ## 使い方
 
-1. 画面上の女性の写真の中から最大 5 人、好みの人を選択
+1. 表示された女性の写真の中から好みの人（最大 5 人まで）を選択
 2. AI がその情報を元にあなた好みのオススメ AV を表示
 
 ## 環境
@@ -19,13 +19,13 @@ Docker でマイクロサービス化させ、Docker Compose で連携させて�
 **【本番環境】**
 Docker でマイクロサービス化させ、Google Kubernetes Engine で連携させています。<br/>
 データベースは開発環境とは異なり、Docker 化せずに、Cloud SQL を使用しています。<br/><br/>
-![環境図](assets/envs.svg)
+![環境図](assets/envs.jpg)
 
 ## 各サービスの GitHub リポジトリ
 
-[AI Engine](#)
-[Backend](https://github.com/souhub/avzeus-backend)
-[Frontend](https://github.com/souhub/avzeus-frontend)
+- AI Engine（[](#)）
+- Backend（[](https://github.com/souhub/avzeus-backend)）
+- Frontend（[](https://github.com/souhub/avzeus-frontend)）
 
 ## 使用技術
 
