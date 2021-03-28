@@ -24,7 +24,7 @@ Docker でマイクロサービス化させ、Google Kubernetes Engine で連携
 
 ## 各サービスの GitHub リポジトリ
 
-- **AI Engine**：[kantaso/ai-engine（仮）](#)
+- **AI Engine**：[kantaso/avzeus-ai（仮）](#)
 - **Backend**：[souhub/avzeus-backend](https://github.com/souhub/avzeus-backend)
 - **Frontend**：[souhub/avzeus-frontend](https://github.com/souhub/avzeus-frontend)
 
@@ -34,6 +34,7 @@ Docker でマイクロサービス化させ、Google Kubernetes Engine で連携
 
 - Docker
 - Docker Compose
+- Docker Hub
 - Go v1.15
 - Python v3
 - JavaScript
