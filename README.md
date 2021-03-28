@@ -23,9 +23,9 @@ Docker でマイクロサービス化させ、Google Kubernetes Engine で連携
 
 ## 各サービスの GitHub リポジトリ
 
-- AI Engine（[](#)）
-- Backend（[](https://github.com/souhub/avzeus-backend)）
-- Frontend（[](https://github.com/souhub/avzeus-frontend)）
+- [AI Engine](#)
+- [Backend](https://github.com/souhub/avzeus-backend)
+- [Frontend](https://github.com/souhub/avzeus-frontend)
 
 ## 使用技術
 
