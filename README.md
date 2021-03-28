@@ -14,8 +14,10 @@
 ## 環境
 
 開発環境と本番環境はそれぞれ以下の図の通りです。
+<br/><br/>
 **【開発環境】**
 Docker でマイクロサービス化させ、Docker Compose で連携させています。
+<br/><br/>
 **【本番環境】**
 Docker でマイクロサービス化させ、Google Kubernetes Engine で連携させています。<br/>
 データベースは開発環境とは異なり、Docker 化せずに、Cloud SQL を使用しています。<br/><br/>
