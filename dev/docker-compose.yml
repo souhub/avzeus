@@ -1,22 +1,29 @@
 version: "3"
 services:
   mysql:
-    image: souhub/avzeus-dev_mysql:1.0
+    image: souhub/avzeus-mysql_dev:1.1
     ports:
       - "3306:3306"
 
   backend:
-    image: avzeus-dev_backend:1.4
+    image: souhub/avzeus-backend_dev:1.5
     depends_on:
       - mysql
     ports:
       - "8000:8000"
 
+  ai:
+    image: souhub/avzeus-ai:1.2
+    tty: true
+    ports:
+      - "5000:5000"
+
   frontend:
-    image: avzeus-dev_frontend:1.8
+    image: souhub/avzeus-frontend:1.3
+    tty: true
     depends_on:
       - mysql
       - backend
-    tty: true
+      - ai
     ports:
-      - "8080:8080"
+      - "8080:80"
