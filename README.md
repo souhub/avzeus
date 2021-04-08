@@ -4,10 +4,11 @@
 
 ## お知らせ
 
-※現在開発中です。<br/><br/>
+~~※現在開発中です。~~ <br/>
 2021/4/8 追記<br/>
 β 版をリリースしました。<br/>
-[https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/]([https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/])
+
+https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/]
 
 ## 各サービスの GitHub リポジトリ
 
