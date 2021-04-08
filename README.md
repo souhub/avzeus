@@ -1,6 +1,6 @@
 # AV ゼウス
 
-あなたの好みの AV を AI がオススメしてくれる Web アプリです。
+あなたの好みの AV 女優 を AI がオススメしてくれる Web アプリです。
 
 ## お知らせ
 
@@ -31,8 +31,8 @@ https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/
    ![選択ページ](assets/selection.png)<br/>
 
 4. 結果ページ<br/><br/>
-   AI が選択された情報を元にあなた好みのオススメ AV を表示します。<br/>
-   AI は確率考慮と強化学習を行うため、同じ結果を入力しても結果が異なる場合もあります。<br/><br/>
+   AI が選択された情報を元にあなた好みのオススメ AV 女優 を表示します。<br/>
+   AI は確率考慮と強化学習を行うため、同じ結果を入力しても結果が異なる場合があります。<br/><br/>
    ![結果ページ](assets/recommendation.png)<br/>
 
 ## 使用技術
