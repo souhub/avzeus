@@ -4,7 +4,10 @@
 
 ## お知らせ
 
-※現在開発中です。
+※現在開発中です。<br/><br/>
+2021/4/8 追記<br/>
+β 版をリリースしました。<br/>
+[https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/]([https://avzeus-client.mmu6fa6rgrojg.ap-northeast-1.cs.amazonlightsail.com/])
 
 ## 各サービスの GitHub リポジトリ
 
@@ -38,26 +41,26 @@
 
 - Docker v20.10.5
 - Docker Compose v1.28.5
-- Docker Hub
 - Go v1.15
 - Python v3.9.0
-- Flask v1.1.2
 - JavaScript
+- Flask v1.1.2
 - Vue.js v3
-- CSS
+- Nginx
 - MySQL v8.0.23
 - Google Cloud Storage
-- Google Kubernetes Engine
-- DMM API
-- [moqups](https://moqups.com/)
+- Amazon Lightsail
+- CircleCI
+- moqups
+- draw.io
 
 ## 環境
 
 開発環境と本番環境はそれぞれ以下の図の通りです。
 <br/><br/>
 **【開発環境】**<br/>
-Docker でマイクロサービス化させ、Docker Compose で連携させています。<br/><br/>
+Docker で下図のように 4 つのサーバーに分け、Docker Compose で連携させています。<br/><br/>
 **【本番環境】**<br/>
-Docker でマイクロサービス化させ、Google Kubernetes Engine で連携させています。<br/>
-データベースは開発環境とは異なり、Docker 化せずに、Cloud SQL を使用しています。<br/><br/>
+下図のように 3 つのサーバーにわけています。<br/>
+データベースは開発環境とは異なり、Docker 化せずに、Loghtsail データベース を使用しています。<br/><br/>
 ![環境図](assets/envs.png)
